@@ -4,6 +4,7 @@ Batch script to save and flash up to 10 AMD GPUs using PolarisBIOSeditor. No err
 This script when combined with PolarisBIOSeditor and ATIflash will save all AMD BIOSes and flash them all. You need to manually make timing patches using PolarisBIOSeditor, found below.
 
 https://github.com/jaschaknack/PolarisBiosEditor
+
 https://www.techpowerup.com/download/ati-atiflash/
 
 Can be made fully automatic if you change the code in PolarisBIOSeditor and call the *apply_timing* function and pass in the filenames as runtime variables to make it truly automated.
