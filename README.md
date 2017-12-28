@@ -11,10 +11,13 @@ Can be made fully automatic if you change the code in PolarisBIOSeditor and call
 
 Steps to flash all cards:
 
-1) Put this script in your atiflash directory and run it, it will request admin rights
-2) Run it and input how many GPUs you have
+0) Put this script in your atiflash directory 
+1) Run it from the command line, it will request admin rights
+2) Input how many GPUs you have
 3) It'll enumerate and save all ROMs to gpu0.rom, gpu1.rom, etc.
 4) Open PolarisBIOSeditor and overwrite the gpu files (improvement, of sorts: save to gpu0-patched.rom and loop over the patched files)
 5) Get through the timeouts and it'll patch every card individually
 
 Again, no error handling, so don't put nonsense in the number of cards list. Or do, whatever.
+
+(Batch file UAC rights taken from Vegamining Guide: http://vega.miningguides.com/)
